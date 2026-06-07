@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    background: #f6cbcb81;
+}
+
+.Main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background:linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
+
+
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left-section h1 {
+    color: crimson;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-left-section span {
+    color: rgb(29, 50, 34);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-center-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-center-section a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: 600;
+}
+
+.nav-right-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search {
+    width: 150px;
+    padding: 0.9rem 2.5rem;
+    border-radius: 12px;
+    border: none;
+}
+
+.search-box i {
+    position: absolute;
+    font-size: 1rem;
+    cursor: pointer;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: crimson;
+}
+
+.cart-box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: crimson;
+}
+
+.user {
+    font-size: 2rem;
+    color: crimson;
+}
+
+/* main section  */

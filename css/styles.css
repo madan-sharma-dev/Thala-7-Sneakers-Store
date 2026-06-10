@@ -14,7 +14,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
-    height: 100vh;
+    height: 90vh;
 }
 
 .header {
@@ -185,4 +185,35 @@ body {
     50% {
         transform: translateY(-15px);
     }
+}
+
+.overview-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    min-height: 100px;
+    background-color: crimson;
+    color: white;
+}
+
+.box-overview {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.box-overview i {
+    font-size: 2.5rem;
+}
+
+.box-overview ul li {
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+
+.top-li {
+    font-weight: bold;
+    font-size: 2rem;
 }

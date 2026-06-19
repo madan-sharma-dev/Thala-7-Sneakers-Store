@@ -1,0 +1,12 @@
+.breadcrumb_list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.breadcrumb_list li {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 1rem;
+    font-weight: 600;
+}

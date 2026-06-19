@@ -39,3 +39,70 @@
     gap: 30px;
     /* background-color: rgb(233, 228, 225); */
 }
+
+.title_desc h1 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.title_desc p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.price_offer {
+    display: flex;
+    gap: 50px;
+    /* flex-direction: row; */
+}
+
+.price-btn {
+    background: rgb(233, 228, 225);
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: rgb(27, 124, 243);
+    font-weight: 600;
+}
+
+.discount-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.discount-text p {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 600;
+}
+
+.discount-text h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.quntity-add-btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.qty-box {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(233, 228, 225);
+}
+
+.icon-btn-cart {
+    padding: 20px 40px;
+    margin: 12px;
+    background-color: darkorange;
+    border-radius: 10px;
+    color: white;
+}

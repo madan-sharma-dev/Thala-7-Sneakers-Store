@@ -21,9 +21,9 @@
                     <h1>Thala<span>7</span></h1>
                 </div>
                 <div class="nav-center-section">
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="#">About</a>
-                    <a href="#">Brands</a>
+                    <a href="product.html">product</a>
                     <a href="#">More</a>
                     <a href="#">contact</a>
                 </div>
@@ -46,7 +46,7 @@
                     <h1 class="hero-heading">Find Your Perfect <span>Pair!</span></h1>
                     <p class="hero-para">Explore the latest collection of trendy sneakers crafted for every step you
                         take.</p>
-                    <button class="btn hero-btn">Explore Collection</button>
+                    <button id="btn" class="btn hero-btn">Explore Collection</button>
                 </div>
                 <div class="right-hero">
                     <img class="hero-img" src="images/shoe_main.png" alt="hero section shoe image">
@@ -85,6 +85,15 @@
 
         </div>
     </div>
+
+
+    <script>
+        let btn_click = document.querySelector("#btn");
+        btn_click.addEventListener("click", () => {
+            window.open("/product.html", "_blank");
+        })
+    </script>
+
 </body>
 
 </html>

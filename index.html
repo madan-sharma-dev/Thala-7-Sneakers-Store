@@ -89,9 +89,18 @@
 
     <script>
         let btn_click = document.querySelector("#btn");
+        let cartBox = document.querySelector(".cart-box");
+
         btn_click.addEventListener("click", () => {
             window.open("/product.html", "_blank");
         })
+
+
+        cartBox.addEventListener("click", () => {
+            window.location.href = '/shopping-cart.html';
+
+        })
+
     </script>
 
 </body>

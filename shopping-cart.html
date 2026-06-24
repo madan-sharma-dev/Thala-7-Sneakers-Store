@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/cart-style.css">
+    <link rel="stylesheet" href="css/shoppig-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
@@ -38,11 +39,119 @@
                 </div>
             </div>
         </header>
+
+        <h2 class="section-heading-cart">Shopping Cart</h2>
+        <div class="shoppig-cart-section">
+            <div class="item-price-list-section">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="product-name">
+                                Thala 7 Premium Sports & Casual Running Shoes for Men
+                            </td>
+
+                            <td class="quantity">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+
+                            <td>₹1200</td>
+
+                            <td class="remove-btn">✕</td>
+                        </tr>
+                        <tr>
+                            <td class="product-name">
+                                Thala 7 Premium Sports & Casual Running Shoes for Men
+                            </td>
+
+                            <td class="quantity">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+
+                            <td>₹1200</td>
+
+                            <td class="remove-btn">✕</td>
+                        </tr>
+                        <tr>
+                            <td class="product-name">
+                                Thala 7 Premium Sports & Casual Running Shoes for Men
+                            </td>
+
+                            <td class="quantity">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+
+                            <td>₹1200</td>
+
+                            <td class="remove-btn">✕</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <div class="total-price-pay-section">
+                <div class="box-price">
+                    <div class="coupon-code-section">
+                        <p>Enter Coupon Code</p>
+                        <div class="iputs">
+                            <input type="text" name="coupon" placeholder="Enter Coupon Code" id="coupon-code">
+                            <input type="button" id="btn-buy" value="Apply Coupon">
+                        </div>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li>Sub total</li>
+                            <li>Taxes(If aplicable)</li>
+                            <li>Discount</li>
+                            <li><strong>Total</strong></li>
+                        </ul>
+                        <ul>
+                            <li>₹4,700</li>
+                            <li>₹199</li>
+                            <li>₹0</li>
+                            <li><strong>₹4,999</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-btn-buy">
+                    <button>Pay Now ₹4,999</button>
+                    <div class="icons-payments">
+                        <img src="/images/stickers/razorpay-icon.png" alt="payments stickers">
+                        <img src="/images/stickers/rupay-logo-icon.png" alt="payments stickers">
+                        <img src="/images/stickers/safety-icon.png" alt="payments stickers">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="continue-shopping-btn">
+            <a href="/index.html">
+                < Continue Shopping</a>
+        </div>
+
     </div>
 
 
     <script>
-        
+        let cartBox = document.querySelector(".cart-box");
+
+        cartBox.addEventListener("click", () => {
+            window.location.href = '/shopping-cart.html';
+        })
 
     </script>
 </body>

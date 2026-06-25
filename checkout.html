@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout -- </title>
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/product_style.css">
+    <link rel="stylesheet" href="/css/shoppig-style.css"">
+</head>
+
+<body>
+
+    <div class=" cart-container">
+    <div class="cart-item-container">
+        <div class="from-item-container">
+            <h2 class="checkout-text">Checkout</h2>
+            <div class="contact-mail-box">
+                <h2>Contact Details</h2>
+                <label for="mail">Email Id</label>
+                <input type="email" placeholder="John Doe">
+            </div>
+            <p class="payment-text">Payment</p>
+            <div class="payment-box">
+                <div class="paymennts-box">
+                    <div class="pay-icons-box">
+                        <div class="boxes " id="active-box"><i class="fa-solid fa-credit-card"></i> Card</div>
+                        <div class="boxes"><i class="fa-brands fa-amazon-pay"></i>Upi</div>
+                        <div class="boxes"><i class="fa-solid fa-bitcoin-sign"></i>Crypto</div>
+                        <div class="boxes">&#8942;</div>
+                    </div>
+                    <div class="card-box">
+                        <label for="card-number">Card number</label>
+                        <input placeholder="John doe" type=" number">
+                    </div>
+                    <div class="input-row">
+
+                        <div class="input-group">
+                            <label for="expiry">Expiry</label>
+                            <input id="expiry" type="text" placeholder="MM/YY">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="cvc">CVC</label>
+                            <input id="cvc" type="password" placeholder="***">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="country">Country</label>
+                            <select id="country">
+                                <option>India</option>
+                                <option>Nepal</option>
+                                <option>Bhutan</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="zip">ZIP</label>
+                            <input id="zip" type="text" placeholder="XXXXX">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-item-container">
+            <div class="total-price-pay-section top-margin">
+                <h2 class="checkout-head-text">Order Summary</h2>
+                <div class="box-price bg-white">
+                    <div class="coupon-code-section">
+                        <p>Enter Coupon Code</p>
+                        <div class="iputs">
+                            <input type="text" name="coupon" placeholder="Enter Coupon Code" id="coupon-code">
+                            <input type="button" id="btn-buy" value="Apply Coupon">
+                        </div>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li>Sub total</li>
+                            <li>Taxes(If aplicable)</li>
+                            <li>Discount</li>
+                            <li><strong>Total</strong></li>
+                        </ul>
+                        <ul>
+                            <li>₹4,700</li>
+                            <li>₹199</li>
+                            <li>₹0</li>
+                            <li><strong>₹4,999</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-btn-buy">
+                    <button><a href="/checkout.html" target="_blank">Pay Now ₹4,999</a></button>
+                    <div class="icons-payments">
+                        <img src="/images/stickers/razorpay-icon.png" alt="payments stickers">
+                        <img src="/images/stickers/rupay-logo-icon.png" alt="payments stickers">
+                        <img src="/images/stickers/safety-icon.png" alt="payments stickers">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </body>
+
+</html>
